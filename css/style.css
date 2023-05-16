@@ -25,6 +25,10 @@ header {
   margin: 20px;
 }
 
+#log-out {
+  cursor: grab;
+}
+
 #weather {
   display: flex;
   flex-direction: column;
