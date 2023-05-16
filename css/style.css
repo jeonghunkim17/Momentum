@@ -9,7 +9,7 @@
 }
 
 body {
-  height: 90vh;
+  height: 95vh;
   font-size: 18px;
   color: floralwhite;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -130,6 +130,7 @@ main form {
 #todo-list li button {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 footer {
@@ -144,4 +145,50 @@ footer {
 
 #quote {
   font-size: 20px;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 14px;
+  }
+
+  #log-out {
+    font-size: 0.7rem;
+  }
+
+  #weatherNow {
+    font-size: 0.7rem;
+  }
+
+  #area {
+    font-size: 0.7rem;
+  }
+
+  #clock {
+    font-size: 2rem;
+  }
+
+  #greeting {
+    font-size: 1.5rem;
+  }
+
+  #login-text,
+  #todo-text {
+    font-size: 1.3rem;
+  }
+
+  #login-form input,
+  #todo-form input,
+  #todo-list li span {
+    font-size: 1.2rem;
+  }
+
+  #todo-list li button {
+    font-size: 1px;
+  }
+
+  #quote {
+    font-size: 0.8rem;
+    text-align: center;
+  }
 }
